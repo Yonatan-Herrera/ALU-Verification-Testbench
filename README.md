@@ -39,8 +39,8 @@ ALUSel Value
 5 srl ALUResult = (unsigned) A >> B[4:0]
 6 or ALUResult = A | B
 7 and ALUResult = A & B
-8 mul ALUResult = (signed) (A _ B)[31:0]
-9 mulh ALUResult = (signed) (A _ B)[63:32]
+8 mul ALUResult = (signed) (A * B)[31:0]
+9 mulh ALUResult = (signed) (A *B)[63:32]
 10 Unused -
 11 mulhu ALUResult = (A \* B)[63:32] (unsigned)
 12 sub ALUResult = A - B
